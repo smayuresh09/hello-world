@@ -22,8 +22,7 @@ jobs:
                at: my_workspace
            - run: |
                #!/bin/bash
-               if [ "$(cat my_workspace/
-               echo-output)" == "Trying out 
+               if [ "$(cat my_workspace/echo-output)" == "Trying out 
                workspaces" ]; then
                    echo "It worked!"
                else
